@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="Calc.css">
+<body>
+    <h1 style="text-align: center;">Calculator app</h1>
+
+    <div class="app">
+        <div class="screen">
+
+        </div>
+        <div class="input">
+         <button class="ipbtn">1</button>
+         <button class="ipbtn">2</button>
+         <button class="ipbtn">3</button>
+         <button class="ipbtn">+</button>
+         <button class="ipbtn">4</button>
+         <button class="ipbtn">5</button>
+         <button class="ipbtn">6</button>
+         <button class="ipbtn">-</button>
+         <button class="ipbtn">7</button>
+         <button class="ipbtn">8</button>
+         <button class="ipbtn">9</button>
+         <button class="ipbtn">*</button>
+         <button onclick="ClearScreen()">CLS</button>
+         <button class="ipbtn">0</button>
+        
+         <button onclick="Calculate()">CALC</button>
+          <button class="ipbtn">/</button>
+
+        </div>
+    </div>
+
+    <div class="history">
+        <button class="historybtn" onclick="showHistory()">History </button>
+        <div class="historydropdown"><ol >
+            
+            
+        </ol>
+        <button onclick="clearHistory()" class="ClearHistory">ClearHistory</button>
+    </div></div>
+
+   <script src="Calc.js"></script>
+</body>
+</html>
