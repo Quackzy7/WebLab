@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stu.css">
+
+</head>
+<body>
+      <div class="input">
+        <form id="myform">
+            <h3>Enter student details:</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="class" >Class:</label>
+            <input type="text" id="class" name="class" required>
+
+            <h3>Enter Marks :</h3>
+
+            <label for="english">English:</label>
+            <input type="number" name="english" id="english" min="0" max="100" required>
+
+            <label for="Science">Science:</label>
+            <input type="number" name="science" id="science" min="0" max="100" required>
+
+            <label for="Maths">Maths:</label>
+            <input type="number" name="maths" id="maths" min="0" max="100" required>
+
+            <label for="Computer">Computer:</label>
+            <input type="number" name="computer" id="computer" min="0" max="100" required>
+
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <div class="output"></div>
+
+    <script src="stu.js"></script>
+
+</body>
+</html>
