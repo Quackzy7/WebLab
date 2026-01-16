@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+}
+
+body{
+    background-color: rgb(221, 235, 235);
+}
+
+.header{
+    background-color: rgb(135, 171, 159);
+    padding: 50px 30px;
+}
+
+.main{
+    padding: 40px 30px;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.add{
+    padding: 0 0 40px 0;
+}
+
+.add input{
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    min-width: 50%;
+    
+}
+
+.addbtn{
+ padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+
+.addbtn:hover{
+background-color: rgb(192, 214, 214);
+cursor: pointer;
+}
+
+.filter{
+    padding: 0 0 20px 0;
+}
+
+label{
+    margin: 0 10px 10px 0;
+}
+
+
+
+li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(197, 221, 221);
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.remove-btn svg {
+    color: #900;
+}
+
+.remove-btn:hover svg {
+    color: red;
+}
+
+
+.Sidebuttons{
+    display: flex;
+    gap: 10px;
+}
+
+.compclicked{
+    background-color: rgb(43, 113, 66);
+}
