@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dynamicTable.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <h1>Dynamic Table Generator</h1>
+        <div class="input">
+            <label for="row-input">Enter number of rows : </label>
+            <input type="number" name="row-input" id="rowInput">
+            <label for="col-input">Enter number of columns : </label>
+            <input type="number" name="col-input" id="colInput">
+            <button class="btn" id="genBtn" type="button">Generate</button>
+            <button class="add btn" type="button" onclick=addRow()>Add Row</button>
+            <button class="delete btn" type="button" onclick="deleteRow()">Delete Row</button>
+            <button class="highlight btn" type="button" onclick="highlightEvenRows()">Highlight even rows</button>
+
+        </div>
+        <div class="output">
+        </div>
+    </div>
+
+    <script src="dynamicTable.js"></script>
+</body>
+
+</html>

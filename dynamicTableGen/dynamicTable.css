@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+background-color: rgb(47, 46, 51);
+color: white;
+}
+
+table, td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.main{
+    padding: 20px;
+    margin: 20px;
+}
+
+.input{
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.output{
+    padding: 20px 0;
+}
+
+.btn{
+    margin: 20px 0 ;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(92, 93, 91);
+    color: aliceblue;
+
+}
+
+
+.highlight-even tr:nth-child(even) {
+  background-color: #473d3d;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(12, 11, 10);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    height: 60%;
+}
+
+.digi-clock{
+    background-color: rgb(0, 0, 0);
+    padding:20px;
+    border-radius: 4px;
+
+}
+
+.timer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.btn{
+    background-color: rgb(26, 31, 35);
+}
+
+.divider{
+    background-color: rgb(56, 56, 57);
+    
+    width: 2px;
+}
+
+input[type="number"]{
+    color: rgb(14, 13, 13);
+}
