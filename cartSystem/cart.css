@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container{
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.card{
+    background-color: rgb(223, 223, 192);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 300px;
+    
+}
+
+.mainImg{
+    height: 150px;
+    border-radius:6%;
+}
+
+
+
+.cart-added{
+    background-color: rgb(141, 28, 28);
+    color: white;
+}
+
+
